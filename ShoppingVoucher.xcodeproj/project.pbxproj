@@ -3,26 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045212B1237BF42200D460BF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B0237BF42200D460BF /* CoreMotion.framework */; };
+		045212B3237BF42E00D460BF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B2237BF42E00D460BF /* CoreTelephony.framework */; };
+		045212B5237BF43A00D460BF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B4237BF43A00D460BF /* libsqlite3.tbd */; };
+		045212B7237BF44700D460BF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B6237BF44700D460BF /* libc++.tbd */; };
+		045212B9237BF45100D460BF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B8237BF45100D460BF /* libz.tbd */; };
 		04562E72237BC6A9005F5137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04562E71237BC6A9005F5137 /* AppDelegate.swift */; };
-		04562E76237BC6A9005F5137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04562E75237BC6A9005F5137 /* ViewController.swift */; };
 		04562E79237BC6A9005F5137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04562E77237BC6A9005F5137 /* Main.storyboard */; };
 		04562E7B237BC6B0005F5137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04562E7A237BC6B0005F5137 /* Assets.xcassets */; };
 		04562E7E237BC6B0005F5137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04562E7C237BC6B0005F5137 /* LaunchScreen.storyboard */; };
+		04562E8B237BEFD7005F5137 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04562E8A237BEFD7005F5137 /* Application.swift */; };
+		04562E8D237BF1DF005F5137 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04562E8C237BF1DF005F5137 /* yw_1222.jpg */; };
+		04B3729D237BFAE5004AD935 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3729C237BFAE5004AD935 /* LogManager.swift */; };
+		04B3729F237BFEC0004AD935 /* HelpersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3729E237BFEC0004AD935 /* HelpersManager.swift */; };
 		534810BBE0D896BE9D132A95 /* Pods_ShoppingVoucher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E288BFE22D5541A93495CDB /* Pods_ShoppingVoucher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045212B0237BF42200D460BF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		045212B2237BF42E00D460BF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		045212B4237BF43A00D460BF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		045212B6237BF44700D460BF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		045212B8237BF45100D460BF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		045212BA237BF6CE00D460BF /* SV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SV-Bridging-Header.h"; sourceTree = "<group>"; };
 		04562E6E237BC6A9005F5137 /* ShoppingVoucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingVoucher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04562E71237BC6A9005F5137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04562E75237BC6A9005F5137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04562E78237BC6A9005F5137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04562E7A237BC6B0005F5137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04562E7D237BC6B0005F5137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04562E7F237BC6B0005F5137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04562E8A237BEFD7005F5137 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		04562E8C237BF1DF005F5137 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		04B3729C237BFAE5004AD935 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		04B3729E237BFEC0004AD935 /* HelpersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpersManager.swift; sourceTree = "<group>"; };
 		0B6E186B75880723DF43CC80 /* Pods-ShoppingVoucher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingVoucher.debug.xcconfig"; path = "Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher.debug.xcconfig"; sourceTree = "<group>"; };
 		3E288BFE22D5541A93495CDB /* Pods_ShoppingVoucher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingVoucher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4822A4C9F460B030E265429 /* Pods-ShoppingVoucher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingVoucher.release.xcconfig"; path = "Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher.release.xcconfig"; sourceTree = "<group>"; };
@@ -33,6 +50,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045212B9237BF45100D460BF /* libz.tbd in Frameworks */,
+				045212B7237BF44700D460BF /* libc++.tbd in Frameworks */,
+				045212B5237BF43A00D460BF /* libsqlite3.tbd in Frameworks */,
+				045212B3237BF42E00D460BF /* CoreTelephony.framework in Frameworks */,
+				045212B1237BF42200D460BF /* CoreMotion.framework in Frameworks */,
 				534810BBE0D896BE9D132A95 /* Pods_ShoppingVoucher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,8 +83,12 @@
 		04562E70237BC6A9005F5137 /* ShoppingVoucher */ = {
 			isa = PBXGroup;
 			children = (
+				04562E89237BEFCC005F5137 /* Application */,
+				04562E86237BEF9E005F5137 /* Extension */,
+				04562E87237BEF9E005F5137 /* Helper */,
+				04562E88237BEF9E005F5137 /* Resource */,
+				04562E85237BEF28005F5137 /* Module */,
 				04562E71237BC6A9005F5137 /* AppDelegate.swift */,
-				04562E75237BC6A9005F5137 /* ViewController.swift */,
 				04562E77237BC6A9005F5137 /* Main.storyboard */,
 				04562E7A237BC6B0005F5137 /* Assets.xcassets */,
 				04562E7C237BC6B0005F5137 /* LaunchScreen.storyboard */,
@@ -71,9 +97,54 @@
 			path = ShoppingVoucher;
 			sourceTree = "<group>";
 		};
+		04562E85237BEF28005F5137 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		04562E86237BEF9E005F5137 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		04562E87237BEF9E005F5137 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				045212BA237BF6CE00D460BF /* SV-Bridging-Header.h */,
+				04B3729C237BFAE5004AD935 /* LogManager.swift */,
+				04B3729E237BFEC0004AD935 /* HelpersManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		04562E88237BEF9E005F5137 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04562E8C237BF1DF005F5137 /* yw_1222.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04562E89237BEFCC005F5137 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				04562E8A237BEFD7005F5137 /* Application.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		61823824DF58E845F5F13EE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				045212B8237BF45100D460BF /* libz.tbd */,
+				045212B6237BF44700D460BF /* libc++.tbd */,
+				045212B4237BF43A00D460BF /* libsqlite3.tbd */,
+				045212B2237BF42E00D460BF /* CoreTelephony.framework */,
+				045212B0237BF42200D460BF /* CoreMotion.framework */,
 				3E288BFE22D5541A93495CDB /* Pods_ShoppingVoucher.framework */,
 			);
 			name = Frameworks;
@@ -85,7 +156,6 @@
 				0B6E186B75880723DF43CC80 /* Pods-ShoppingVoucher.debug.xcconfig */,
 				F4822A4C9F460B030E265429 /* Pods-ShoppingVoucher.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -101,6 +171,7 @@
 				04562E6B237BC6A9005F5137 /* Frameworks */,
 				04562E6C237BC6A9005F5137 /* Resources */,
 				17B76EE3C469686408992B03 /* [CP] Embed Pods Frameworks */,
+				A37C79F1B328B345F40E3422 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04562E8D237BF1DF005F5137 /* yw_1222.jpg in Resources */,
 				04562E7E237BC6B0005F5137 /* LaunchScreen.storyboard in Resources */,
 				04562E7B237BC6B0005F5137 /* Assets.xcassets in Resources */,
 				04562E79237BC6A9005F5137 /* Main.storyboard in Resources */,
@@ -197,6 +269,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A37C79F1B328B345F40E3422 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -204,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04562E76237BC6A9005F5137 /* ViewController.swift in Sources */,
+				04B3729D237BFAE5004AD935 /* LogManager.swift in Sources */,
+				04B3729F237BFEC0004AD935 /* HelpersManager.swift in Sources */,
+				04562E8B237BEFD7005F5137 /* Application.swift in Sources */,
 				04562E72237BC6A9005F5137 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,14 +442,81 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ShoppingVoucher/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mac.ShoppingVoucher;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AlibabaAuthExt\"",
+					"-framework",
+					"\"AlibabaAuthSDK\"",
+					"-framework",
+					"\"AlibcLinkPartnerSDK\"",
+					"-framework",
+					"\"AlibcTradeBiz\"",
+					"-framework",
+					"\"AlibcTradeSDK\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MtopSDK\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SGAVMP\"",
+					"-framework",
+					"\"SGMain\"",
+					"-framework",
+					"\"SGMiddleTier\"",
+					"-framework",
+					"\"SGSecurityBody\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SecurityGuardSDK\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UTDID\"",
+					"-framework",
+					"\"UTMini\"",
+					"-framework",
+					"\"mtopcoreopen\"",
+					"-framework",
+					"\"mtopext\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LMM.ShoppingVoucher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShoppingVoucher/Helper/SV-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -370,14 +528,81 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ShoppingVoucher/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mac.ShoppingVoucher;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AlibabaAuthExt\"",
+					"-framework",
+					"\"AlibabaAuthSDK\"",
+					"-framework",
+					"\"AlibcLinkPartnerSDK\"",
+					"-framework",
+					"\"AlibcTradeBiz\"",
+					"-framework",
+					"\"AlibcTradeSDK\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MtopSDK\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SGAVMP\"",
+					"-framework",
+					"\"SGMain\"",
+					"-framework",
+					"\"SGMiddleTier\"",
+					"-framework",
+					"\"SGSecurityBody\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SecurityGuardSDK\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UTDID\"",
+					"-framework",
+					"\"UTMini\"",
+					"-framework",
+					"\"mtopcoreopen\"",
+					"-framework",
+					"\"mtopext\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LMM.ShoppingVoucher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShoppingVoucher/Helper/SV-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
