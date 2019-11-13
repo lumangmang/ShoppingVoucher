@@ -18,7 +18,7 @@ pod 'BCUserTrack','5.2.0.11-appkeys'
 pod 'UTDID','1.1.0.16'
 pod 'RAMAnimatedTabBarController'
 pod 'CocoaLumberjack/Swift'
-pod 'Moya'
+pod 'Moya/RxSwift', '14.0.0-beta.5'
 
 end
 
