@@ -34,8 +34,21 @@ enum LMTabBarItem: Int {
     func fetchController(with viewModel: ViewModel, navigator: Navigator) -> UIViewController {
         let viewController = controller(with: viewModel, navigator: navigator)
         let item = RAMAnimatedTabBarItem(title: "Index", image: nil, tag: rawValue)
+        item.animation = animation
         viewController.tabBarItem = item
         return viewController
+    }
+    
+    var animation: RAMItemAnimation {
+        var animation: RAMItemAnimation
+        switch self {
+        case .index: animation = RAMFlipLeftTransitionItemAnimations()
+        case .brand: animation = RAMBounceAnimation()
+        case .find: animation = RAMBounceAnimation()
+        case .settings: animation = RAMRightRotationAnimation()
+        case .login: animation = RAMBounceAnimation()
+        }
+        return animation
     }
 }
 

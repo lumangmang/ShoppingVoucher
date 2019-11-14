@@ -15,6 +15,8 @@ class SplitViewController: UISplitViewController {
         
         delegate = self
         preferredDisplayMode = .allVisible
+        
+        view.backgroundColor = .white
     }
 }
 

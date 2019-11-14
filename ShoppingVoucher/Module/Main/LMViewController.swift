@@ -17,6 +17,7 @@ class LMViewController: UIViewController, Navigatable {
         super.viewDidLoad()
         
     
+        view.backgroundColor = .white
     }
     
     init(viewModel: ViewModel?, navigator: Navigator) {
