@@ -17,5 +17,3 @@ final class Application {
     }
 }
 
-
-// Master
