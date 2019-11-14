@@ -24,7 +24,7 @@ class LMTabBarViewModel: ViewModel, ViewModelType {
             if login {
                 return [.index, .brand, .find, .settings]
             } else {
-                return [.login]
+                return [.index, .brand, .find, .login]
             }
         }.asDriver(onErrorJustReturn: [])
         
