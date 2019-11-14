@@ -42,6 +42,10 @@
 		04E0EA15237D657E0052E097 /* LMBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA14237D657E0052E097 /* LMBrandViewController.swift */; };
 		04E0EA17237D65A90052E097 /* LMFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA16237D65A90052E097 /* LMFindViewController.swift */; };
 		04E0EA19237D66470052E097 /* LMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA18237D66470052E097 /* LMLoginViewController.swift */; };
+		04E0EA1B237D66CB0052E097 /* LMSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA1A237D66CB0052E097 /* LMSettingViewController.swift */; };
+		04E0EA1D237D66F50052E097 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA1C237D66F50052E097 /* SettingViewModel.swift */; };
+		04E0EA1F237D67030052E097 /* FindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA1E237D67030052E097 /* FindViewModel.swift */; };
+		04E0EA21237D670D0052E097 /* BrandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA20237D670D0052E097 /* BrandViewModel.swift */; };
 		534810BBE0D896BE9D132A95 /* Pods_ShoppingVoucher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E288BFE22D5541A93495CDB /* Pods_ShoppingVoucher.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +88,10 @@
 		04E0EA14237D657E0052E097 /* LMBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMBrandViewController.swift; sourceTree = "<group>"; };
 		04E0EA16237D65A90052E097 /* LMFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMFindViewController.swift; sourceTree = "<group>"; };
 		04E0EA18237D66470052E097 /* LMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMLoginViewController.swift; sourceTree = "<group>"; };
+		04E0EA1A237D66CB0052E097 /* LMSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSettingViewController.swift; sourceTree = "<group>"; };
+		04E0EA1C237D66F50052E097 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		04E0EA1E237D67030052E097 /* FindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewModel.swift; sourceTree = "<group>"; };
+		04E0EA20237D670D0052E097 /* BrandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewModel.swift; sourceTree = "<group>"; };
 		0B6E186B75880723DF43CC80 /* Pods-ShoppingVoucher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingVoucher.debug.xcconfig"; path = "Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher.debug.xcconfig"; sourceTree = "<group>"; };
 		3E288BFE22D5541A93495CDB /* Pods_ShoppingVoucher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingVoucher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4822A4C9F460B030E265429 /* Pods-ShoppingVoucher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingVoucher.release.xcconfig"; path = "Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +117,8 @@
 		040422F2237D4C8C00DC2614 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				04E0EA1A237D66CB0052E097 /* LMSettingViewController.swift */,
+				04E0EA1C237D66F50052E097 /* SettingViewModel.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -126,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				04E0EA16237D65A90052E097 /* LMFindViewController.swift */,
+				04E0EA1E237D67030052E097 /* FindViewModel.swift */,
 			);
 			path = Find;
 			sourceTree = "<group>";
@@ -134,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				04E0EA14237D657E0052E097 /* LMBrandViewController.swift */,
+				04E0EA20237D670D0052E097 /* BrandViewModel.swift */,
 			);
 			path = Brand;
 			sourceTree = "<group>";
@@ -444,17 +456,21 @@
 				04710067237D317B00F2762A /* Observable+Ex.swift in Sources */,
 				04B3729F237BFEC0004AD935 /* HelpersManager.swift in Sources */,
 				0471006D237D438500F2762A /* ActivityIndicator.swift in Sources */,
+				04E0EA1F237D67030052E097 /* FindViewModel.swift in Sources */,
 				040422F7237D4CA100DC2614 /* LoginViewModel.swift in Sources */,
 				04E0EA11237D588B0052E097 /* SplitViewController.swift in Sources */,
+				04E0EA1D237D66F50052E097 /* SettingViewModel.swift in Sources */,
 				04E0EA0B237D56A20052E097 /* LMTableViewController.swift in Sources */,
 				04710065237D2BCF00F2762A /* Networking.swift in Sources */,
 				04E0EA19237D66470052E097 /* LMLoginViewController.swift in Sources */,
 				04710070237D43B000F2762A /* ErrorTracker.swift in Sources */,
 				04562E8B237BEFD7005F5137 /* Application.swift in Sources */,
+				04E0EA21237D670D0052E097 /* BrandViewModel.swift in Sources */,
 				04E0EA0F237D57CC0052E097 /* LMNavigationController.swift in Sources */,
 				04196737237D18130070C5B9 /* VoucherAPI.swift in Sources */,
 				04E0EA17237D65A90052E097 /* LMFindViewController.swift in Sources */,
 				04E0EA15237D657E0052E097 /* LMBrandViewController.swift in Sources */,
+				04E0EA1B237D66CB0052E097 /* LMSettingViewController.swift in Sources */,
 				04562E72237BC6A9005F5137 /* AppDelegate.swift in Sources */,
 				04196734237D07800070C5B9 /* Helper.swift in Sources */,
 			);
