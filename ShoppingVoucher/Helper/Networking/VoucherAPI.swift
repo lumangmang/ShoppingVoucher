@@ -13,6 +13,12 @@ import RxCocoa
 
 let provider = MoyaProvider<VoucherAPI>()
 
+typealias MoyaError = Moya.MoyaError
+
+enum APIError: Error {
+    case serverError(response: MoyaError)
+}
+
 enum VoucherAPI {
     case loading
 }

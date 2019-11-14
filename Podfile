@@ -21,6 +21,10 @@ pod 'CocoaLumberjack/Swift'
 pod 'Moya/RxSwift', '14.0.0-beta.5'
 pod 'SwifterSwift'
 pod 'ObjectMapper'
+pod 'NSObject+Rx'
+pod 'Hero'
+pod 'RAMAnimatedTabBarController'
+pod 'NVActivityIndicatorView'
 
 end
 

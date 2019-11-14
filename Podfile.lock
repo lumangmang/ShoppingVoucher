@@ -8,12 +8,18 @@ PODS:
   - CocoaLumberjack/Core (3.6.0)
   - CocoaLumberjack/Swift (3.6.0):
     - CocoaLumberjack/Core
+  - Hero (1.5.0)
   - Moya/Core (14.0.0-beta.5):
     - Alamofire (= 5.0.0-rc.3)
   - Moya/RxSwift (14.0.0-beta.5):
     - Moya/Core
     - RxSwift (~> 5.0)
   - mtopSDK (3.0.0.4)
+  - "NSObject+Rx (5.0.2)":
+    - RxSwift (~> 5.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
   - ObjectMapper (3.5.1)
   - RAMAnimatedTabBarController (5.1.0)
   - RxCocoa (5.0.1):
@@ -52,8 +58,11 @@ DEPENDENCIES:
   - AliLinkPartnerSDK (= 4.0.0.24)
   - BCUserTrack (= 5.2.0.11-appkeys)
   - CocoaLumberjack/Swift
+  - Hero
   - Moya/RxSwift (= 14.0.0-beta.5)
   - mtopSDK (= 3.0.0.4)
+  - "NSObject+Rx"
+  - NVActivityIndicatorView
   - ObjectMapper
   - RAMAnimatedTabBarController
   - RxCocoa
@@ -80,6 +89,9 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
   trunk:
+    - Hero
+    - "NSObject+Rx"
+    - NVActivityIndicatorView
     - ObjectMapper
     - SwifterSwift
 
@@ -90,8 +102,11 @@ SPEC CHECKSUMS:
   AliLinkPartnerSDK: c5778cdfdcee7bfe342238d39a77766184d36a46
   BCUserTrack: f267dfb52a6e67603c33668f2e9384ee01b68a88
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
   Moya: 2c16c3fe92eda302070213452281b59198f946d8
   mtopSDK: bf447d4361b0199790e2a2829a1cc0299df71716
+  "NSObject+Rx": 2eb2cf51fd1c554118449a7fbc36e4cd620b9e94
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   RAMAnimatedTabBarController: b5c821298071fded801532216ad8a24394f89859
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
@@ -101,6 +116,6 @@ SPEC CHECKSUMS:
   SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
   UTDID: c28855683c5ea2e77e597cb14609328f7d470d6e
 
-PODFILE CHECKSUM: a8d99858ef958c55ac91c448a6a58b19b4936a7e
+PODFILE CHECKSUM: 2d8c1bd125659f2f53bed2c2c1b928d5ae119af3
 
 COCOAPODS: 1.8.4

@@ -11,12 +11,13 @@ import RxSwift
 import RxCocoa
 import Moya
 
-final class Application {
+final class Application: NSObject {
     
     static let `default` = Application()
     
     var window: UIWindow?
     
+    let navigator: Navigator
     let disposeBag = DisposeBag()
     
     fileprivate let provider = MoyaProvider<VoucherAPI>()
@@ -27,13 +28,20 @@ final class Application {
         
         self.window = window
         
-        window.rootViewController = LaunchViewController()
+//        window.rootViewController = LaunchViewController()
+        
+        let viewModel = LMTabBarViewModel()
+        self.navigator.show(segue: .tabs(viewModel: viewModel), sender: nil, transition: .root(in: window))
+    }
+    
+    override init() {
+        navigator = Navigator.default
+        super.init()
     }
     
     private func presentFetureScreen() {
         
     }
-    
     
     private func configNetworking() {
         

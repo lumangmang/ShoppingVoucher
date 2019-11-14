@@ -15,8 +15,6 @@ class LaunchViewController: UIViewController {
         super.viewDidLoad()
         
         fetchLaunchImageView()
-        
-//        fetchRomoteData()
     }
     
     private func fetchLaunchImageView() {
