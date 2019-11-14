@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04196732237D05FE0070C5B9 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04196731237D05FE0070C5B9 /* LaunchViewController.swift */; };
+		04196734237D07800070C5B9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04196733237D07800070C5B9 /* Helper.swift */; };
+		04196737237D18130070C5B9 /* VoucherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04196736237D18130070C5B9 /* VoucherAPI.swift */; };
 		045212B1237BF42200D460BF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B0237BF42200D460BF /* CoreMotion.framework */; };
 		045212B3237BF42E00D460BF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B2237BF42E00D460BF /* CoreTelephony.framework */; };
 		045212B5237BF43A00D460BF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B4237BF43A00D460BF /* libsqlite3.tbd */; };
@@ -18,12 +21,17 @@
 		04562E7E237BC6B0005F5137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04562E7C237BC6B0005F5137 /* LaunchScreen.storyboard */; };
 		04562E8B237BEFD7005F5137 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04562E8A237BEFD7005F5137 /* Application.swift */; };
 		04562E8D237BF1DF005F5137 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04562E8C237BF1DF005F5137 /* yw_1222.jpg */; };
+		04710065237D2BCF00F2762A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04710064237D2BCF00F2762A /* Networking.swift */; };
+		04710067237D317B00F2762A /* Observable+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04710066237D317B00F2762A /* Observable+Ex.swift */; };
 		04B3729D237BFAE5004AD935 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3729C237BFAE5004AD935 /* LogManager.swift */; };
 		04B3729F237BFEC0004AD935 /* HelpersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3729E237BFEC0004AD935 /* HelpersManager.swift */; };
 		534810BBE0D896BE9D132A95 /* Pods_ShoppingVoucher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E288BFE22D5541A93495CDB /* Pods_ShoppingVoucher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04196731237D05FE0070C5B9 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		04196733237D07800070C5B9 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		04196736237D18130070C5B9 /* VoucherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherAPI.swift; sourceTree = "<group>"; };
 		045212B0237BF42200D460BF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		045212B2237BF42E00D460BF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		045212B4237BF43A00D460BF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -38,6 +46,8 @@
 		04562E7F237BC6B0005F5137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04562E8A237BEFD7005F5137 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		04562E8C237BF1DF005F5137 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		04710064237D2BCF00F2762A /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		04710066237D317B00F2762A /* Observable+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ex.swift"; sourceTree = "<group>"; };
 		04B3729C237BFAE5004AD935 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 		04B3729E237BFEC0004AD935 /* HelpersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpersManager.swift; sourceTree = "<group>"; };
 		0B6E186B75880723DF43CC80 /* Pods-ShoppingVoucher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingVoucher.debug.xcconfig"; path = "Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04196735237D17E40070C5B9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				04196736237D18130070C5B9 /* VoucherAPI.swift */,
+				04710064237D2BCF00F2762A /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		04562E65237BC6A9005F5137 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +126,7 @@
 		04562E86237BEF9E005F5137 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				04710066237D317B00F2762A /* Observable+Ex.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -114,9 +134,11 @@
 		04562E87237BEF9E005F5137 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				04196735237D17E40070C5B9 /* Networking */,
 				045212BA237BF6CE00D460BF /* SV-Bridging-Header.h */,
 				04B3729C237BFAE5004AD935 /* LogManager.swift */,
 				04B3729E237BFEC0004AD935 /* HelpersManager.swift */,
+				04196733237D07800070C5B9 /* Helper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -133,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				04562E8A237BEFD7005F5137 /* Application.swift */,
+				04196731237D05FE0070C5B9 /* LaunchViewController.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -294,9 +317,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B3729D237BFAE5004AD935 /* LogManager.swift in Sources */,
+				04196732237D05FE0070C5B9 /* LaunchViewController.swift in Sources */,
+				04710067237D317B00F2762A /* Observable+Ex.swift in Sources */,
 				04B3729F237BFEC0004AD935 /* HelpersManager.swift in Sources */,
+				04710065237D2BCF00F2762A /* Networking.swift in Sources */,
 				04562E8B237BEFD7005F5137 /* Application.swift in Sources */,
+				04196737237D18130070C5B9 /* VoucherAPI.swift in Sources */,
 				04562E72237BC6A9005F5137 /* AppDelegate.swift in Sources */,
+				04196734237D07800070C5B9 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

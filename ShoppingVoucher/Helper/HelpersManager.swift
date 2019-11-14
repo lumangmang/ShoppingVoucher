@@ -8,7 +8,6 @@
 
 import CocoaLumberjack
 
-
 final class HelpersManager {
     
     static let `default` = HelpersManager()

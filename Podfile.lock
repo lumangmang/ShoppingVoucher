@@ -14,6 +14,7 @@ PODS:
     - Moya/Core
     - RxSwift (~> 5.0)
   - mtopSDK (3.0.0.4)
+  - ObjectMapper (3.5.1)
   - RAMAnimatedTabBarController (5.1.0)
   - RxCocoa (5.0.1):
     - RxRelay (~> 5)
@@ -22,6 +23,27 @@ PODS:
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
   - securityGuard (5.4.173)
+  - SwifterSwift (5.1.0):
+    - SwifterSwift/AppKit (= 5.1.0)
+    - SwifterSwift/CoreGraphics (= 5.1.0)
+    - SwifterSwift/CoreLocation (= 5.1.0)
+    - SwifterSwift/Dispatch (= 5.1.0)
+    - SwifterSwift/Foundation (= 5.1.0)
+    - SwifterSwift/MapKit (= 5.1.0)
+    - SwifterSwift/SceneKit (= 5.1.0)
+    - SwifterSwift/SpriteKit (= 5.1.0)
+    - SwifterSwift/SwiftStdlib (= 5.1.0)
+    - SwifterSwift/UIKit (= 5.1.0)
+  - SwifterSwift/AppKit (5.1.0)
+  - SwifterSwift/CoreGraphics (5.1.0)
+  - SwifterSwift/CoreLocation (5.1.0)
+  - SwifterSwift/Dispatch (5.1.0)
+  - SwifterSwift/Foundation (5.1.0)
+  - SwifterSwift/MapKit (5.1.0)
+  - SwifterSwift/SceneKit (5.1.0)
+  - SwifterSwift/SpriteKit (5.1.0)
+  - SwifterSwift/SwiftStdlib (5.1.0)
+  - SwifterSwift/UIKit (5.1.0)
   - UTDID (1.1.0.16)
 
 DEPENDENCIES:
@@ -32,10 +54,12 @@ DEPENDENCIES:
   - CocoaLumberjack/Swift
   - Moya/RxSwift (= 14.0.0-beta.5)
   - mtopSDK (= 3.0.0.4)
+  - ObjectMapper
   - RAMAnimatedTabBarController
   - RxCocoa
   - RxSwift
   - securityGuard (= 5.4.173)
+  - SwifterSwift
   - UTDID (= 1.1.0.16)
 
 SPEC REPOS:
@@ -47,7 +71,7 @@ SPEC REPOS:
     - mtopSDK
     - securityGuard
     - UTDID
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - CocoaLumberjack
     - Moya
@@ -55,6 +79,9 @@ SPEC REPOS:
     - RxCocoa
     - RxRelay
     - RxSwift
+  trunk:
+    - ObjectMapper
+    - SwifterSwift
 
 SPEC CHECKSUMS:
   Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
@@ -65,13 +92,15 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   Moya: 2c16c3fe92eda302070213452281b59198f946d8
   mtopSDK: bf447d4361b0199790e2a2829a1cc0299df71716
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   RAMAnimatedTabBarController: b5c821298071fded801532216ad8a24394f89859
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   securityGuard: 35d3a1b5877bb2de4698a78089eb8906fa3ad27b
+  SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
   UTDID: c28855683c5ea2e77e597cb14609328f7d470d6e
 
-PODFILE CHECKSUM: 2a3735dd5711d54ffb6a5ee6f15c565a98a6a955
+PODFILE CHECKSUM: a8d99858ef958c55ac91c448a6a58b19b4936a7e
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4

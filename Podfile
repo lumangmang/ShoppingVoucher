@@ -19,6 +19,8 @@ pod 'UTDID','1.1.0.16'
 pod 'RAMAnimatedTabBarController'
 pod 'CocoaLumberjack/Swift'
 pod 'Moya/RxSwift', '14.0.0-beta.5'
+pod 'SwifterSwift'
+pod 'ObjectMapper'
 
 end
 

@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window?.makeKeyAndVisible()
 
-        window?.rootViewController = UIViewController()
+        Application.default.presentInitialScreen(in: window)
         
         return true
     }
@@ -37,6 +37,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
-// Merge
 
 
