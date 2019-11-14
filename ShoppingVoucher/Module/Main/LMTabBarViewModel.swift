@@ -36,8 +36,18 @@ class LMTabBarViewModel: ViewModel, ViewModelType {
         case .login:
             let viewModel = LoginViewModel()
             return viewModel
-        default:
-            return IndexViewModel()
+        case .index:
+            let viewModel = IndexViewModel()
+            return viewModel
+        case .brand:
+            let viewModel = BrandViewModel()
+            return viewModel
+        case .find:
+            let viewModel = FindViewModel()
+            return viewModel
+        case .settings:
+            let viewModel = SettingViewModel()
+            return viewModel
         }
     }
 }

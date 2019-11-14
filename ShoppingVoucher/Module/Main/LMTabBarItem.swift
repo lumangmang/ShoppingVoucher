@@ -17,17 +17,17 @@ enum LMTabBarItem: Int {
             let indexviewController = LMIndexViewController(viewModel: viewModel, navigator: navigator)
             return LMNavigationController(rootViewController: indexviewController)
         case .brand:
-            let indexviewController = LMIndexViewController(viewModel: viewModel, navigator: navigator)
-            return LMNavigationController(rootViewController: indexviewController)
+            let brandviewController = LMBrandViewController(viewModel: viewModel, navigator: navigator)
+            return LMNavigationController(rootViewController: brandviewController)
         case .find:
-            let indexviewController = LMIndexViewController(viewModel: viewModel, navigator: navigator)
-            return LMNavigationController(rootViewController: indexviewController)
+            let findviewController = LMFindViewController(viewModel: viewModel, navigator: navigator)
+            return LMNavigationController(rootViewController: findviewController)
         case .settings:
-            let indexviewController = LMIndexViewController(viewModel: viewModel, navigator: navigator)
-            return LMNavigationController(rootViewController: indexviewController)
+            let settingviewController = LMSettingViewController(viewModel: viewModel, navigator: navigator)
+            return LMNavigationController(rootViewController: settingviewController)
         case .login:
-            let indexviewController = LMIndexViewController(viewModel: viewModel, navigator: navigator)
-            return LMNavigationController(rootViewController: indexviewController)
+            let loginviewController = LMLoginViewController(viewModel: viewModel, navigator: navigator)
+            return LMNavigationController(rootViewController: loginviewController)
         }
     }
     
