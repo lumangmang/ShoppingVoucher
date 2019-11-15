@@ -25,6 +25,13 @@ pod 'NSObject+Rx'
 pod 'Hero'
 pod 'RAMAnimatedTabBarController'
 pod 'NVActivityIndicatorView'
+pod 'SnapKit'
+pod 'KafkaRefresh'
+pod 'Toast-Swift'
+pod 'RxTheme'
+pod 'DropDown'
+pod 'Kingfisher'
+pod 'R.swift'
 
 end
 

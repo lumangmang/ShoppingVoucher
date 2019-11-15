@@ -10,6 +10,10 @@ import Hero
 
 class LMNavigationController: UINavigationController {
 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return globalStatusBarStyle.value
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,5 +28,11 @@ class LMNavigationController: UINavigationController {
         hero.modalAnimationType = .autoReverse(presenting: .fade)
         hero.navigationAnimationType = .autoReverse(presenting: .slide(direction: .left))
         navigationBar.isTranslucent = false
+        
+        ThemManager.rx
+        .bind({ $0.secondary }, to: navigationBar.rx.tintColor)
+        .bind({ $0.primaryDark }, to: navigationBar.rx.barTintColor)
+        .bind({ [NSAttributedString.Key.foregroundColor: $0.text] }, to: navigationBar.rx.titleTextAttributes)
+        .disposed(by: rx.disposeBag)
     }
 }

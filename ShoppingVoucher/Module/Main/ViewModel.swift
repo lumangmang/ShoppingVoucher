@@ -22,6 +22,8 @@ protocol ViewModelType {
 
 class ViewModel: NSObject {
     
+    let provider: API
+    
     let loading = ActivityIndicator()
     let headerLoading = ActivityIndicator()
     let footerLoading = ActivityIndicator()
@@ -29,7 +31,10 @@ class ViewModel: NSObject {
     let error = ErrorTracker()
     let parsedError = PublishSubject<APIError>()
     
-    override init() {
+    init(provider: API) {
+        
+        self.provider = provider
+        
         super.init()
         
         error.asObservable().map { error -> APIError? in

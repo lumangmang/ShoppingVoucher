@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
 
 class LMIndexViewController: LMTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+    }
+    
+    override func bindViewModel() {
+        super.bindViewModel()
+        
+        guard let viewModel = viewModel as? IndexViewModel else { return }
+        
+        let input = IndexViewModel.Input()
+        
+        let output = viewModel.transform(input: input)
         
     }
 }

@@ -11,13 +11,9 @@ import SwifterSwift
 import RxSwift
 import RxCocoa
 
-let provider = MoyaProvider<VoucherAPI>()
+//let provider = MoyaProvider<VoucherAPI>()
 
-typealias MoyaError = Moya.MoyaError
 
-enum APIError: Error {
-    case serverError(response: MoyaError)
-}
 
 enum VoucherAPI {
     case loading

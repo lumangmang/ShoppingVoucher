@@ -12,15 +12,20 @@
 		040422F7237D4CA100DC2614 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040422F6237D4CA100DC2614 /* LoginViewModel.swift */; };
 		040422FA237D4CDB00DC2614 /* IndexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040422F9237D4CDB00DC2614 /* IndexViewModel.swift */; };
 		040422FC237D4D6500DC2614 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040422FB237D4D6500DC2614 /* Navigator.swift */; };
+		0412D0B1237E38F00043D1BF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D0B0237E38F00043D1BF /* API.swift */; };
+		0412D0B3237E3A700043D1BF /* RESTfulAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D0B2237E3A700043D1BF /* RESTfulAPI.swift */; };
+		0412D0B5237E476C0043D1BF /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D0B4237E476C0043D1BF /* UIView+Ex.swift */; };
 		04196732237D05FE0070C5B9 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04196731237D05FE0070C5B9 /* LaunchViewController.swift */; };
 		04196734237D07800070C5B9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04196733237D07800070C5B9 /* Helper.swift */; };
 		04196737237D18130070C5B9 /* VoucherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04196736237D18130070C5B9 /* VoucherAPI.swift */; };
+		041B00DA237E95B800BB62E6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B00D9237E95B800BB62E6 /* R.generated.swift */; };
 		044DE08C237D546D008E6547 /* LMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044DE08B237D546D008E6547 /* LMViewController.swift */; };
 		045212B1237BF42200D460BF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B0237BF42200D460BF /* CoreMotion.framework */; };
 		045212B3237BF42E00D460BF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B2237BF42E00D460BF /* CoreTelephony.framework */; };
 		045212B5237BF43A00D460BF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B4237BF43A00D460BF /* libsqlite3.tbd */; };
 		045212B7237BF44700D460BF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B6237BF44700D460BF /* libc++.tbd */; };
 		045212B9237BF45100D460BF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 045212B8237BF45100D460BF /* libz.tbd */; };
+		0454ECB4237E4E050076C81D /* KafkaRefresh+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454ECB3237E4E050076C81D /* KafkaRefresh+Ex.swift */; };
 		04562E72237BC6A9005F5137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04562E71237BC6A9005F5137 /* AppDelegate.swift */; };
 		04562E79237BC6A9005F5137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04562E77237BC6A9005F5137 /* Main.storyboard */; };
 		04562E7B237BC6B0005F5137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04562E7A237BC6B0005F5137 /* Assets.xcassets */; };
@@ -46,6 +51,8 @@
 		04E0EA1D237D66F50052E097 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA1C237D66F50052E097 /* SettingViewModel.swift */; };
 		04E0EA1F237D67030052E097 /* FindViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA1E237D67030052E097 /* FindViewModel.swift */; };
 		04E0EA21237D670D0052E097 /* BrandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA20237D670D0052E097 /* BrandViewModel.swift */; };
+		04EB6484237E5263000D8EC9 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB6483237E5263000D8EC9 /* ThemeManager.swift */; };
+		04F73F81237E58B200D1AF8A /* Kingfisher+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F73F80237E58B200D1AF8A /* Kingfisher+Ex.swift */; };
 		534810BBE0D896BE9D132A95 /* Pods_ShoppingVoucher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E288BFE22D5541A93495CDB /* Pods_ShoppingVoucher.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,9 +62,13 @@
 		040422F6237D4CA100DC2614 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		040422F9237D4CDB00DC2614 /* IndexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewModel.swift; sourceTree = "<group>"; };
 		040422FB237D4D6500DC2614 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		0412D0B0237E38F00043D1BF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0412D0B2237E3A700043D1BF /* RESTfulAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTfulAPI.swift; sourceTree = "<group>"; };
+		0412D0B4237E476C0043D1BF /* UIView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ex.swift"; sourceTree = "<group>"; };
 		04196731237D05FE0070C5B9 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		04196733237D07800070C5B9 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		04196736237D18130070C5B9 /* VoucherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherAPI.swift; sourceTree = "<group>"; };
+		041B00D9237E95B800BB62E6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		044DE08B237D546D008E6547 /* LMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMViewController.swift; sourceTree = "<group>"; };
 		045212B0237BF42200D460BF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		045212B2237BF42E00D460BF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -65,6 +76,7 @@
 		045212B6237BF44700D460BF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		045212B8237BF45100D460BF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		045212BA237BF6CE00D460BF /* SV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SV-Bridging-Header.h"; sourceTree = "<group>"; };
+		0454ECB3237E4E050076C81D /* KafkaRefresh+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KafkaRefresh+Ex.swift"; sourceTree = "<group>"; };
 		04562E6E237BC6A9005F5137 /* ShoppingVoucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingVoucher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04562E71237BC6A9005F5137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04562E78237BC6A9005F5137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,6 +104,8 @@
 		04E0EA1C237D66F50052E097 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		04E0EA1E237D67030052E097 /* FindViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewModel.swift; sourceTree = "<group>"; };
 		04E0EA20237D670D0052E097 /* BrandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewModel.swift; sourceTree = "<group>"; };
+		04EB6483237E5263000D8EC9 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		04F73F80237E58B200D1AF8A /* Kingfisher+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kingfisher+Ex.swift"; sourceTree = "<group>"; };
 		0B6E186B75880723DF43CC80 /* Pods-ShoppingVoucher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingVoucher.debug.xcconfig"; path = "Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher.debug.xcconfig"; sourceTree = "<group>"; };
 		3E288BFE22D5541A93495CDB /* Pods_ShoppingVoucher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingVoucher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4822A4C9F460B030E265429 /* Pods-ShoppingVoucher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingVoucher.release.xcconfig"; path = "Target Support Files/Pods-ShoppingVoucher/Pods-ShoppingVoucher.release.xcconfig"; sourceTree = "<group>"; };
@@ -162,6 +176,8 @@
 		04196735237D17E40070C5B9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				0412D0B0237E38F00043D1BF /* API.swift */,
+				0412D0B2237E3A700043D1BF /* RESTfulAPI.swift */,
 				04196736237D18130070C5B9 /* VoucherAPI.swift */,
 				04710064237D2BCF00F2762A /* Networking.swift */,
 			);
@@ -220,6 +236,9 @@
 			isa = PBXGroup;
 			children = (
 				04710066237D317B00F2762A /* Observable+Ex.swift */,
+				0412D0B4237E476C0043D1BF /* UIView+Ex.swift */,
+				0454ECB3237E4E050076C81D /* KafkaRefresh+Ex.swift */,
+				04F73F80237E58B200D1AF8A /* Kingfisher+Ex.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -234,6 +253,7 @@
 				04B3729C237BFAE5004AD935 /* LogManager.swift */,
 				04B3729E237BFEC0004AD935 /* HelpersManager.swift */,
 				04196733237D07800070C5B9 /* Helper.swift */,
+				04EB6483237E5263000D8EC9 /* ThemeManager.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -241,6 +261,7 @@
 		04562E88237BEF9E005F5137 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				041B00D9237E95B800BB62E6 /* R.generated.swift */,
 				04562E8C237BF1DF005F5137 /* yw_1222.jpg */,
 			);
 			path = Resource;
@@ -317,6 +338,7 @@
 			buildConfigurationList = 04562E82237BC6B0005F5137 /* Build configuration list for PBXNativeTarget "ShoppingVoucher" */;
 			buildPhases = (
 				17A5B4D5391D350652853C67 /* [CP] Check Pods Manifest.lock */,
+				041B00D8237E94BD00BB62E6 /* ShellScript */,
 				04562E6A237BC6A9005F5137 /* Sources */,
 				04562E6B237BC6A9005F5137 /* Frameworks */,
 				04562E6C237BC6A9005F5137 /* Resources */,
@@ -380,6 +402,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		041B00D8237E94BD00BB62E6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		17A5B4D5391D350652853C67 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,19 +494,26 @@
 				04196732237D05FE0070C5B9 /* LaunchViewController.swift in Sources */,
 				04E0EA13237D5D380052E097 /* LMIndexViewController.swift in Sources */,
 				04E0EA0D237D57730052E097 /* InitialSplitViewController.swift in Sources */,
+				041B00DA237E95B800BB62E6 /* R.generated.swift in Sources */,
+				0412D0B3237E3A700043D1BF /* RESTfulAPI.swift in Sources */,
 				04710067237D317B00F2762A /* Observable+Ex.swift in Sources */,
 				04B3729F237BFEC0004AD935 /* HelpersManager.swift in Sources */,
 				0471006D237D438500F2762A /* ActivityIndicator.swift in Sources */,
 				04E0EA1F237D67030052E097 /* FindViewModel.swift in Sources */,
 				040422F7237D4CA100DC2614 /* LoginViewModel.swift in Sources */,
 				04E0EA11237D588B0052E097 /* SplitViewController.swift in Sources */,
+				0454ECB4237E4E050076C81D /* KafkaRefresh+Ex.swift in Sources */,
 				04E0EA1D237D66F50052E097 /* SettingViewModel.swift in Sources */,
 				04E0EA0B237D56A20052E097 /* LMTableViewController.swift in Sources */,
 				04710065237D2BCF00F2762A /* Networking.swift in Sources */,
 				04E0EA19237D66470052E097 /* LMLoginViewController.swift in Sources */,
 				04710070237D43B000F2762A /* ErrorTracker.swift in Sources */,
 				04562E8B237BEFD7005F5137 /* Application.swift in Sources */,
+				04F73F81237E58B200D1AF8A /* Kingfisher+Ex.swift in Sources */,
+				0412D0B5237E476C0043D1BF /* UIView+Ex.swift in Sources */,
 				04E0EA21237D670D0052E097 /* BrandViewModel.swift in Sources */,
+				0412D0B1237E38F00043D1BF /* API.swift in Sources */,
+				04EB6484237E5263000D8EC9 /* ThemeManager.swift in Sources */,
 				04E0EA0F237D57CC0052E097 /* LMNavigationController.swift in Sources */,
 				04196737237D18130070C5B9 /* VoucherAPI.swift in Sources */,
 				04E0EA17237D65A90052E097 /* LMFindViewController.swift in Sources */,

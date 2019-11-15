@@ -60,3 +60,39 @@ extension Networking {
 }
 
 
+extension NetworkingType {
+    
+    static func networking() -> Networking {
+        return Networking(provider: OnlineProvider(endpointClosure: Networking.endpointsClosure(), requestClosure: Networking.endpointResolver(), stubClosure: Networking.APIKeysBasedStubBehaviour))
+    }
+}
+
+extension NetworkingType {
+    static func endpointsClosure<T>() -> (T) -> Endpoint where T: TargetType {
+        return { target in
+            let endpoint = MoyaProvider.defaultEndpointMapping(for: target)
+            return endpoint
+        }
+    }
+    
+    static func endpointResolver() -> MoyaProvider<T>.RequestClosure {
+        return { endpoint, closure in
+            do {
+                var request = try endpoint.urlRequest()
+                request.httpShouldHandleCookies = false
+                closure(.success(request))
+            } catch {
+                LogError(error.localizedDescription)
+            }
+        }
+    }
+    
+    static func APIKeysBasedStubBehaviour<T>(_: T) -> Moya.StubBehavior {
+        return .never
+    }
+    
+    static var plugins: [PluginType] {
+        let plugins: [PluginType] = []
+        return plugins
+    }
+}

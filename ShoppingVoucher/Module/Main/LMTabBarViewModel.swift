@@ -31,22 +31,26 @@ class LMTabBarViewModel: ViewModel, ViewModelType {
         return Output(tabBarItems: tabBarItems)
     }
     
+    override init(provider: API) {
+        super.init(provider: provider)
+    }
+    
     func viewModel(for tabbarItem: LMTabBarItem) -> ViewModel {
         switch tabbarItem {
         case .login:
-            let viewModel = LoginViewModel()
+            let viewModel = LoginViewModel(provider: provider)
             return viewModel
         case .index:
-            let viewModel = IndexViewModel()
+            let viewModel = IndexViewModel(provider: provider)
             return viewModel
         case .brand:
-            let viewModel = BrandViewModel()
+            let viewModel = BrandViewModel(provider: provider)
             return viewModel
         case .find:
-            let viewModel = FindViewModel()
+            let viewModel = FindViewModel(provider: provider)
             return viewModel
         case .settings:
-            let viewModel = SettingViewModel()
+            let viewModel = SettingViewModel(provider: provider)
             return viewModel
         }
     }

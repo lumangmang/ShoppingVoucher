@@ -15,5 +15,13 @@ class InitialSplitViewController: LMTableViewController {
 
         
     }
+    
+    override func setupView() {
+        super.setupView()
+        
+        if #available(iOS 11.0, *) {
+            navigationController?.navigationBar.prefersLargeTitles = false
+        }
+    }
 
 }

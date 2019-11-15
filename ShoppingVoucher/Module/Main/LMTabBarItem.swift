@@ -6,6 +6,7 @@
 //  Copyright © 2019 Mac. All rights reserved.
 //
 
+import RxSwift
 import RAMAnimatedTabBarController
 
 enum LMTabBarItem: Int {
@@ -35,6 +36,9 @@ enum LMTabBarItem: Int {
         let viewController = controller(with: viewModel, navigator: navigator)
         let item = RAMAnimatedTabBarItem(title: "Index", image: nil, tag: rawValue)
         item.animation = animation
+        _ = ThemManager.rx
+        .bind({ $0.text }, to: item.rx.iconColor)
+        .bind({ $0.text }, to: item.rx.textColor)
         viewController.tabBarItem = item
         return viewController
     }
@@ -48,8 +52,21 @@ enum LMTabBarItem: Int {
         case .settings: animation = RAMRightRotationAnimation()
         case .login: animation = RAMBounceAnimation()
         }
+        _ = ThemManager.rx.bind({
+            $0.secondary
+        }, to: animation.rx.iconSelectedColor)
+        .bind({ $0.secondary }, to: animation.rx.textSelectedColor)
         return animation
     }
+    
+//    var image: UIImage? {
+//        switch self {
+//        case .index:
+//            
+//        default:
+//            <#code#>
+//        }
+//    }
 }
 
 class LMTabBarController: RAMAnimatedTabBarController, Navigatable {
@@ -94,5 +111,16 @@ class LMTabBarController: RAMAnimatedTabBarController, Navigatable {
         hero.isEnabled = true
         tabBar.hero.id = "TabBarID"
         tabBar.isTranslucent = false
+        
+        ThemManager.rx.bind({
+            $0.primaryDark
+        }, to: tabBar.rx.barTintColor).disposed(by: rx.disposeBag)
+        
+        ThemManager.typeStream.delay(DispatchTimeInterval.milliseconds(700), scheduler: MainScheduler.instance).subscribe(onNext: { theme in
+            switch theme {
+                case .light(let color), .dark(let color):
+                self.changeSelectedColor(color.color, iconSelectedColor: color.color)
+            }
+        }).disposed(by: rx.disposeBag)
     }
 }
