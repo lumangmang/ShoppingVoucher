@@ -26,10 +26,9 @@ class RESTfulAPI: API {
     }
 }
 
-
 extension RESTfulAPI {
     func fetchIndexData() -> Single<Any> {
-        return request(.loading)
+        return request(.index)
     }
 }
 

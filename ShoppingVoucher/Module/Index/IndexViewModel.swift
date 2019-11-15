@@ -23,11 +23,18 @@ class IndexViewModel: ViewModel, ViewModelType {
     
     struct Output {
         
+//        let navigationTitle: Driver<String>
     }
     
     func transform(input: IndexViewModel.Input) -> IndexViewModel.Output {
         
-        provider.fetchIndexData().trackActivity(loading).trackError(error)
+//        let navigationTitle =
+        
+        provider.fetchIndexData().subscribe(onSuccess: {
+            print($0)
+        }) {
+            print($0)
+        }
         
         return Output()
     }

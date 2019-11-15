@@ -17,6 +17,7 @@ struct Helpers {
     
     struct Networking {
         static let lodingURL = "http://api.652615.com"
+        static let baseURL = "https://api.baicai.top/v4"
     }
     
     struct Dimensions {

@@ -10,6 +10,7 @@ PODS:
     - CocoaLumberjack/Core
   - DropDown (2.3.13)
   - Hero (1.5.0)
+  - HMSegmentedControl (1.5.5)
   - KafkaRefresh (1.4.7):
     - KafkaRefresh/Category (= 1.4.7)
     - KafkaRefresh/Configuration (= 1.4.7)
@@ -107,6 +108,7 @@ DEPENDENCIES:
   - CocoaLumberjack/Swift
   - DropDown
   - Hero
+  - HMSegmentedControl
   - KafkaRefresh
   - Kingfisher
   - Moya/RxSwift (= 14.0.0-beta.5)
@@ -145,6 +147,7 @@ SPEC REPOS:
   trunk:
     - DropDown
     - Hero
+    - HMSegmentedControl
     - KafkaRefresh
     - Kingfisher
     - "NSObject+Rx"
@@ -166,6 +169,7 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
   KafkaRefresh: a7962ea8f03f384c1b545d8c27ac419aa0d5b055
   Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
   Moya: 2c16c3fe92eda302070213452281b59198f946d8
@@ -186,6 +190,6 @@ SPEC CHECKSUMS:
   Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
   UTDID: c28855683c5ea2e77e597cb14609328f7d470d6e
 
-PODFILE CHECKSUM: 321512e406e2d05e0f4116d7dfd06c7d36839ef0
+PODFILE CHECKSUM: f2c9d8b6b25258c9ee0dbc90710476ec5d09feab
 
 COCOAPODS: 1.8.4

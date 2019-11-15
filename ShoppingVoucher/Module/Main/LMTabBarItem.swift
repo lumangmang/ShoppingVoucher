@@ -113,7 +113,7 @@ class LMTabBarController: RAMAnimatedTabBarController, Navigatable {
         tabBar.isTranslucent = false
         
         ThemManager.rx.bind({
-            $0.primaryDark
+            $0.background
         }, to: tabBar.rx.barTintColor).disposed(by: rx.disposeBag)
         
         ThemManager.typeStream.delay(DispatchTimeInterval.milliseconds(700), scheduler: MainScheduler.instance).subscribe(onNext: { theme in

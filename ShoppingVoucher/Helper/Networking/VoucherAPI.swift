@@ -11,24 +11,23 @@ import SwifterSwift
 import RxSwift
 import RxCocoa
 
-//let provider = MoyaProvider<VoucherAPI>()
-
-
-
 enum VoucherAPI {
     case loading
+    case index //  /taoke/category
 }
 
 extension VoucherAPI: TargetType {
     var baseURL: URL {
         switch self {
         case .loading: return Helpers.Networking.lodingURL.url!
+        default: return Helpers.Networking.baseURL.url!
         }
     }
     
     var path: String {
         switch self {
         case .loading: return "/liuyi/cloud/toggle/shanwuleng/tiandihe/caiganyujunjue"
+        case .index: return "/taoke/category"
         }
     }
     
@@ -38,6 +37,12 @@ extension VoucherAPI: TargetType {
         case .loading:
             params["appKey"] = Keys.loading.apiKey
             params["deviceId"] = Keys.loading.deviceID
+        case .index:
+            params["search"] = "parent_id:0;status:1"
+            params["orderBy"] = "sort"
+            params["sortedBy"] = "desc"
+            params["searchJoin"] = "and"
+            params["type"] = "1"
         }
         return params
     }

@@ -32,6 +32,7 @@ pod 'RxTheme'
 pod 'DropDown'
 pod 'Kingfisher'
 pod 'R.swift'
+pod 'HMSegmentedControl'
 
 end
 
