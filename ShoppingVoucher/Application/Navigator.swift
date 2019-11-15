@@ -64,11 +64,7 @@ class Navigator {
         switch segue {
         case .tabs(let viewModel):
             let tabbarController = LMTabBarController(viewModel: viewModel, navigator: self)
-            let splitViewController = InitialSplitViewController(viewModel: nil, navigator: self)
-            let navigationController = LMNavigationController(rootViewController: splitViewController)
-            let splitVC = SplitViewController()
-            splitVC.viewControllers = [tabbarController, navigationController]
-            return splitVC
+            return tabbarController
         }
     }
 }

@@ -40,9 +40,7 @@
 		04B3729D237BFAE5004AD935 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3729C237BFAE5004AD935 /* LogManager.swift */; };
 		04B3729F237BFEC0004AD935 /* HelpersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3729E237BFEC0004AD935 /* HelpersManager.swift */; };
 		04E0EA0B237D56A20052E097 /* LMTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA0A237D56A20052E097 /* LMTableViewController.swift */; };
-		04E0EA0D237D57730052E097 /* InitialSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA0C237D57730052E097 /* InitialSplitViewController.swift */; };
 		04E0EA0F237D57CC0052E097 /* LMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA0E237D57CC0052E097 /* LMNavigationController.swift */; };
-		04E0EA11237D588B0052E097 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA10237D588B0052E097 /* SplitViewController.swift */; };
 		04E0EA13237D5D380052E097 /* LMIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA12237D5D380052E097 /* LMIndexViewController.swift */; };
 		04E0EA15237D657E0052E097 /* LMBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA14237D657E0052E097 /* LMBrandViewController.swift */; };
 		04E0EA17237D65A90052E097 /* LMFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0EA16237D65A90052E097 /* LMFindViewController.swift */; };
@@ -93,9 +91,7 @@
 		04B3729C237BFAE5004AD935 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 		04B3729E237BFEC0004AD935 /* HelpersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpersManager.swift; sourceTree = "<group>"; };
 		04E0EA0A237D56A20052E097 /* LMTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTableViewController.swift; sourceTree = "<group>"; };
-		04E0EA0C237D57730052E097 /* InitialSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialSplitViewController.swift; sourceTree = "<group>"; };
 		04E0EA0E237D57CC0052E097 /* LMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMNavigationController.swift; sourceTree = "<group>"; };
-		04E0EA10237D588B0052E097 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		04E0EA12237D5D380052E097 /* LMIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMIndexViewController.swift; sourceTree = "<group>"; };
 		04E0EA14237D657E0052E097 /* LMBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMBrandViewController.swift; sourceTree = "<group>"; };
 		04E0EA16237D65A90052E097 /* LMFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMFindViewController.swift; sourceTree = "<group>"; };
@@ -284,8 +280,6 @@
 				044DE08B237D546D008E6547 /* LMViewController.swift */,
 				04E0EA0A237D56A20052E097 /* LMTableViewController.swift */,
 				04E0EA0E237D57CC0052E097 /* LMNavigationController.swift */,
-				04E0EA0C237D57730052E097 /* InitialSplitViewController.swift */,
-				04E0EA10237D588B0052E097 /* SplitViewController.swift */,
 				040422F0237D49B800DC2614 /* LMTabBarItem.swift */,
 				040422EE237D494B00DC2614 /* LMTabBarViewModel.swift */,
 			);
@@ -493,7 +487,6 @@
 				040422F1237D49B800DC2614 /* LMTabBarItem.swift in Sources */,
 				04196732237D05FE0070C5B9 /* LaunchViewController.swift in Sources */,
 				04E0EA13237D5D380052E097 /* LMIndexViewController.swift in Sources */,
-				04E0EA0D237D57730052E097 /* InitialSplitViewController.swift in Sources */,
 				041B00DA237E95B800BB62E6 /* R.generated.swift in Sources */,
 				0412D0B3237E3A700043D1BF /* RESTfulAPI.swift in Sources */,
 				04710067237D317B00F2762A /* Observable+Ex.swift in Sources */,
@@ -501,7 +494,6 @@
 				0471006D237D438500F2762A /* ActivityIndicator.swift in Sources */,
 				04E0EA1F237D67030052E097 /* FindViewModel.swift in Sources */,
 				040422F7237D4CA100DC2614 /* LoginViewModel.swift in Sources */,
-				04E0EA11237D588B0052E097 /* SplitViewController.swift in Sources */,
 				0454ECB4237E4E050076C81D /* KafkaRefresh+Ex.swift in Sources */,
 				04E0EA1D237D66F50052E097 /* SettingViewModel.swift in Sources */,
 				04E0EA0B237D56A20052E097 /* LMTableViewController.swift in Sources */,
